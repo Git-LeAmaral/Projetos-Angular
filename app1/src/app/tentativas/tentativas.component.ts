@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class TentativasComponent {
 
+  public coracaoVazio: string = '/assets/coracao_vazio.png'
+  public caracaoCheio: string = '/assets/coracao_cheio.png'
+
 }
