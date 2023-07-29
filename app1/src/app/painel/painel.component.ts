@@ -10,8 +10,14 @@ import { Frases } from './frases-mock';
 export class PainelComponent {
 
   public frases: Frase[] = Frases
+  public instrucao: string = 'Traduza a frase:'
 
   constructor() {console.log(this.frases);
+  }
+
+  public atualizaResposta(): void {
+    console.log('teste');
+
   }
 
 }
